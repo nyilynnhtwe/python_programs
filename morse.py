@@ -1,7 +1,8 @@
 while True:
- inputString = input("Enter name : ")
+ inputString = input("Enter normal(exit for out) : ")
  morseString=""
  if inputString.lower()=='exit':
+       print("Thanks for using my program")
        break
  for j in inputString:
     i=j.lower()
@@ -57,5 +58,5 @@ while True:
        morseString+="-.--"
     elif i=="z":
        morseString+="--.."
- print(morseString)
+ print("Morse code"+morseString)
 
